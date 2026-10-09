@@ -1,0 +1,160 @@
+<html>
+  <head>
+    <title> Personal Webste </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <nav class = "navbar navbar-inverse">
+      <div class = "container-fluid">
+        <div class = "navbar-header">
+          <button type = "button" class = "navbar-toggle" data-toggle = "collapse" data-target = "#myNavBar">
+          <span class = "icon-bar"></span>
+          <span class = "icon-bar"></span>
+          <span class = "icon-bar"></span>
+          </button>
+          <a class = "navbar-brand" href = "#">Brison Website</a>
+        </div>
+        <div class = "collapse navbar-collapse" id = "myNavBar">
+          <ul class = "nav navbar-nav">
+            <li><a href = "#">Home</a></li>
+            <li><a href = "#">About Me</a></li>
+    
+            <li><a href = "#">Showcase</a></li>
+            <li><a href = "#">Contact</a></li>
+          </ul>
+          <ul class = "nav navbar-nav navbar-right">
+            <li><a href = "#"><span class = "glyphicon glyphicon-user"></span>Sign Up</a></li>
+            <li><a href = "#"><span class = "glyphicon glyphicon-log-in"></span>Log In</a></li>            
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section id="home" class="jumbotron text-center">
+    <section id="about" class="container">
+  <div class="page-header text-center">
+    <h2>About Me</h2>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-4 text-center">
+      <img
+        src="https://via.placeholder.com/200"
+        class="img-circle img-responsive center-block"
+        alt="Profile picture">
+    </div>
+
+    <div class="col-sm-8">
+      <h3>Hello! I am Brison.</h3>
+      <p>
+        I am learning HTML, CSS, JavaScript, and Bootstrap.
+        I enjoy designing websites and learning new technology.
+      </p>
+      <p>
+         hobbies are gaming, drawing, reading, and coding.
+      </p>
+    </div>
+  </div>
+</section>
+    </a>
+  </div>
+</section>
+       <section id="skills" class="container">
+  <div class="page-header text-center">
+    <h2>My Skills</h2>
+    <p>I am skilled, patient and strong .</p>
+  </div>
+
+  <div class="row text-center">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-globe"></span>
+      <h3>HTML</h3>
+      <p>My favourite sport is basketball.</p>
+    </div>
+
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-pencil"></span>
+      <h3>CSS</h3>
+      < p> I do play Roblox and Brawl Stars.</p>
+    </div>
+
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-cog"></span>
+      <h3>JavaScript</h3>
+      <p>I use .</p>
+    </div>
+  </div>
+</section>
+<section id="showcase" class="container">
+  <div class="page-header text-center">
+    <h2>Project Showcase</h2>
+    <p>Here are some projects that I have created.</p>
+  </div>
+
+  <div class="row">
+    <div class="col-sm-4">
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">My First Website</h3>
+        </div>
+
+        <div class="panel-body">
+          <img
+            src="https://via.placeholder.com/400x250"
+            class="img-responsive"
+            alt="My first website project">
+
+          <p>A simple website created using HTML and CSS.</p>
+        </div>
+
+        <div class="panel-footer">
+          <a href="#" class="btn btn-primary">View Project</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+          <h3 class="panel-title">JavaScript Project</h3>
+        </div>
+
+        <div class="panel-body">
+          <img
+            src="https://via.placeholder.com/400x250"
+            class="img-responsive"
+            alt="JavaScript project">
+
+          <p>An interactive project created with JavaScript.</p>
+        </div>
+
+        <div class="panel-footer">
+          <a href="#" class="btn btn-success">View Project</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-sm-4">
+      <div class="panel panel-warning">
+        <div class="panel-heading">
+          <h3 class="panel-title">Bootstrap Project</h3>
+        </div>
+
+        <div class="panel-body">
+          <img
+            src="https://via.placeholder.com/400x250"
+            class="img-responsive"
+            alt="Bootstrap project">
+
+          <p>A responsive webpage designed with Bootstrap.</p>
+        </div>
+
+        <div class="panel-footer">
+          <a href="#" class="btn btn-warning">View Project</a>
+        </div>
+      </div>
+    </div>
+
+  </body>  
